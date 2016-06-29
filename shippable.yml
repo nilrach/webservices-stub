@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+   - oraclejdk8
+
+script:
+   - mvn clean
+   - mvn install
+
+notifications:
+    email:
+        - nilkanth.rachote@gmail.com
+        - kuldeepsinghk@gmail.com
+    on_success: always
+    on_failure: always
