@@ -9,7 +9,7 @@ script:
 
 notifications:
     email:
-        - nilkanth.rachote@gmail.com
+        - n.rachote@gmail.com
         - kuldeepsinghk@gmail.com
     on_success: always
     on_failure: always
